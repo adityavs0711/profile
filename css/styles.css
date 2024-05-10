@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #DDDDDD;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #EAF6F6;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 400px;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+.dp {
+  width: 250px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 0;
+  text-align: left;
+}
+
+.skill-1 {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  box-shadow: 0 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #66BFBF 5%, #66BFF6 100%);
+  background-color: #66BFBF;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #3d768a;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #4CD3C2 5%, #4CD3F6 100%);
+  background-color: #4CD3C2;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact-me {
+  width: 45%;
+  margin: 40px auto 60px;
+}
+
+.middle-container {
+  padding-top: 100px
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.name {
+  text-decoration: underline;
+}
